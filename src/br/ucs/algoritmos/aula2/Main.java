@@ -30,6 +30,5 @@ public class Main {
                 vetor[tamanho - 1 - i] = temp;
             }
         }
-
     }
 
