@@ -2,7 +2,6 @@ package br.ucs.algoritmos.aula5.tde;
 
 public class Main {
     public static void main(String[] args) {
-        // Exemplo de uso
         PalindromeChecker.DoublyLinkedList list = new PalindromeChecker.DoublyLinkedList();
         String text = "arara";
         for (int i = 0; i < text.length(); i++) {
