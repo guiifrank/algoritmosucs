@@ -16,8 +16,8 @@ public class Main {
     }
 
     public static char[] rearrange(char[] input) {
-        Queue<Character> lettersQueue = new LinkedList<>(); // Fila para letras
-        Stack<Character> digitsStack = new Stack<>(); // Pilha para dígitos
+        Queue<Character> lettersQueue = new LinkedList<>();
+        Stack<Character> digitsStack = new Stack<>();
 
         for (char ch : input) {
             if (digito(ch)) {
