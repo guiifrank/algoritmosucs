@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        AeroportoEDAero aeroporto = new AeroportoEDAero();
+        Aeroporto aeroporto = new Aeroporto();
         Scanner scanner = new Scanner(System.in);
         int opcao;
 

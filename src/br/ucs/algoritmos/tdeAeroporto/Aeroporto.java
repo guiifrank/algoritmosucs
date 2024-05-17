@@ -1,11 +1,11 @@
 package br.ucs.algoritmos.tdeAeroporto;
 
-public class AeroportoEDAero {
+public class Aeroporto {
     ListAeronaves[] LDISP;
     Fila FDEC, FATE;
     RelatorioOperacoes relatorio;
 
-    AeroportoEDAero() {
+    Aeroporto() {
         LDISP = new ListAeronaves[26];
         for (int i = 0; i < 26; i++) {
             LDISP[i] = new ListAeronaves();
